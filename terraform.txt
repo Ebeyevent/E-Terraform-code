@@ -1,0 +1,23 @@
+         " {
+	   region     = "us-east-1"
+	     access_key = "AKIAXARVRPLUDURLKUN7"
+	       secret_key = "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"
+	       }
+	       resource "aws_instance" "myfirstec2"{
+	         ami           ="ami-079db87dc4c10ac91"
+		   instance_type ="t2.micro"
+		     tags = {
+		       Name = "myfirstec2"
+		         }
+			 }aws" {
+  region     = "us-east-1"
+  access_key = "AKIAXARVRPLUDURLKUN7"
+  secret_key = "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"
+}
+resource "aws_instance" "myfirstec2"{
+  ami           ="ami-079db87dc4c10ac91"
+  instance_type ="t2.micro"
+  tags = {
+  Name = "myfirstec2"
+  }
+}
